@@ -12,11 +12,12 @@ const Home = async () => {
       <section className="px-6 md:px-20 py-12 md:py-2">
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center text-center mt-2"> 
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold overflow-hidden mb-8 text-center">
-  <span className="block md:inline text-blue-500 md:mx-4 lg:mx-2">"💻 SMART</span>
-  <span className="block md:inline text-green-700 md:mx-4 lg:mx-2">💲PRICE</span>
-  <span className="block md:inline text-purple-900 md:mx-4 lg:mx-2">📈 INSIGHT "</span>
+           <h1 className="text-4xl md:text-3xl lg:text-4xl font-bold overflow-hidden mb-8 text-center">
+  <span className="block md:inline text-blue-500 md:mx-2 lg:mx-1">"💻 SMART</span>
+  <span className="block md:inline text-green-700 md:mx-2 lg:mx-1">💲PRICE </span>
+  <span className="block md:inline text-purple-900 md:mx-2 lg:mx-1">📈 INSIGHT "</span>
 </h1>
+
 
             <p className="small-text">
               Smart Shopping Starts Here:
@@ -30,7 +31,7 @@ const Home = async () => {
 
             <h1 className="head-text text-6xl md:text-6xl lg:text-5xl font-bold text-center">
   Elevate Your Journey with :
-  <span className="block mx-4 text-center mt-4">
+  <span className="block mx-4 text-center mt-4 md:inline">
     💸 <span className="bg-gradient-to-r from-blue-500 via-violet-500 to-red-500 text-transparent bg-clip-text">PriceScraper</span> 💸
   </span>
 </h1>

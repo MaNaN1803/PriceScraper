@@ -2,7 +2,7 @@ import Navbar from '@/components/Navbar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter, Space_Grotesk } from 'next/font/google'
-
+import { Providers } from '@/components/Providers'
 const inter = Inter({ subsets: ['latin'] })
 const spaceGrotesk = Space_Grotesk({ 
   subsets: ['latin'], 
@@ -20,12 +20,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
+        <Providers>
         <main className="max-w-10xl mx-auto">
           <Navbar />
           {children}
         </main>
+        </Providers>
       </body>
     </html>
   )
