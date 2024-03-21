@@ -14,7 +14,7 @@ const Home = async () => {
           <div className="flex flex-col justify-center text-center mt-2"> 
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold overflow-hidden mb-8 text-center">
   <span className="block md:inline text-blue-500 md:mx-4 lg:mx-2">"💻 SMART</span>
-  <span className="block md:inline text-green-700 md:mx-4 lg:mx-2">PRICE 💲</span>
+  <span className="block md:inline text-green-700 md:mx-4 lg:mx-2">PRICE💲</span>
   <span className="block md:inline text-purple-900 md:mx-4 lg:mx-2">📈 INSIGHT "</span>
 </h1>
 
