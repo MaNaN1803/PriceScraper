@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
+import ThemeSwitch from './ThemeSwitch';
 const navIcons = [
   { src: '/assets/icons/search.svg', alt: 'search' , link: '/search'},
   { src: '/assets/icons/black-heart.svg', alt: 'heart', link: '/favorites' },
@@ -12,6 +13,7 @@ const Navbar = () => {
   return (
     <header className="w-full">
       <nav className="nav">
+        <ThemeSwitch/>
         <Link href="/" className="flex items-center gap-1">
           {/* <Image 
             src="/assets/icons/logo.svg"
